@@ -1,0 +1,232 @@
+/* CSS Document */
+
+/* Fonts 
+
+font-family: 'Caesar Dressing', cursive;
+font-family: 'Chelsea Market', cursive;
+font-family: 'Merriweather', serif;
+font-family: 'Merriweather Sans', sans-serif;
+font-family: 'Rubik Vinyl', cursive;
+
+*/
+
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+
+body {
+	background-image: url("../images/beachwood.jpeg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 50em;
+}
+
+header {
+	background-image: url("../images/home_beach.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 20% 20%;
+	border-top: 7em solid #f8f8dd;
+	border-bottom: 1em double #d90368;
+	max-height: 500px;
+}
+
+header h1 {
+	font-size: 6em;
+	padding: 5px;
+	margin-left: 7%;
+	padding-top: 1em;
+	text-decoration-line: underline;
+	text-decoration-style: dotted;
+	font-family: 'Caesar Dressing', cursive;
+	color: #1c2321;
+}
+
+header h2 {
+	font-size: 3.5em;
+	padding: 5px;
+	margin-left: 35%;
+	padding-bottom: 1em;
+	font-family: 'Chelsea Market', cursive;
+	color: #2e508a;
+}
+
+.hNav ul {
+	padding: 2em;
+	list-style-type: none;
+	text-decoration: none;
+	margin: 0 auto;
+	background-color: #1ac8ed;
+	min-height: 70px;
+	border-bottom: 1em solid #d90368;
+}
+
+.hNav ul li {
+	font-size: 40px;
+	padding: 0 3.75% 1%;
+	float: left;
+}
+
+.hNav ul li a {
+	text-decoration: none;
+	text-align: center;
+	color: #2e508a;
+	font-family: 'Chelsea Market', cursive;
+}
+
+.hNav ul li a:hover {
+	font-family: 'Rubik Vinyl', cursive;
+	color: #f8f8dd;
+}
+
+h1 {
+	
+}
+
+h2 {
+	
+}
+
+main {
+}
+
+blockquote {
+	margin: 2.5% 25%;
+	font-size: 5em;
+	padding: 0 2% 2%;
+	font-family: 'Caesar Dressing', cursive;
+	color: #5B4F32;
+	text-align: center;
+	text-decoration-line: underline;
+	text-decoration-style: dotted;
+	text-decoration-color: #d90368;
+	background-color: #f8f8dd;
+	border-radius: 100px 100px;
+	border: 10px double #5b4f32;
+}
+
+main img {
+	float: right;
+	max-width: 30%;
+	padding: 2% 6% 4% 2%;
+	max-height: 300px;
+}
+
+main p {
+	background-color: #2e508a;
+	margin: 0 auto;
+	font-size: 2em;
+	color: #f8f8dd;
+	padding: 5%;
+	max-width: 80%;
+}
+
+table {
+	font-family: 'Merriweather Sans', sans-serif;
+	color: #d90368;
+	margin: 0 auto;
+	padding: 2%;
+	background-image: url("../images/newsletter_Beach.jpg");
+	backgroun-repeat: no-repeat;
+	background-size: cover;
+	border: 1em solid #d90268;
+}
+
+legend {
+	margin: 0 auto;
+	font-size: 2em;
+	padding: 3% 2% 2%;
+	font-family: 'Caesar Dressing', cursive;
+	color: #5B4F32;
+	text-align: center;
+	text-decoration-line: underline;
+	text-decoration-style: dotted;
+	text-decoration-color: #d90368;
+	background-color: #f8f8dd;
+	border-radius: 100px 100px;
+	border: 10px double #5b4f32;
+}
+
+td {
+	padding: 2%;
+	text-align: center;
+	font-size: 3em;
+	font-family: 'Merriweather Sans', sans-serif;
+}
+
+#fName, #lName, #email {
+	padding: 2%;
+	border-radius: 10px 10px;
+	border: 5px double #d90368;
+}
+
+#submit {
+	font-size: 1.5em;
+	color: #1ac8ed;
+	font-family: 'Chelsea Market', cursive;
+	padding: 2%;
+	border-radius: 40px 40px;
+	border: 10px double #d90368;
+	background-color: #2e508a;
+	
+}
+
+#submit:hover {
+	font-family: 'Rubik Vinyl', cursive;
+	background-color: #d90368;
+	color: #1ac8ed;
+	border: 10px double #2e508a;
+}
+
+.fNav {
+	margin: 5% 0;
+}
+
+.fNav ul {
+	padding: 2em;
+	list-style-type: none;
+	text-decoration: none;
+	margin: 0 auto;
+	background-color: #2e508a;
+	min-height: 70px;
+	border-bottom: 1em solid #d90368;
+	border-top: 1em double #d90368;
+}
+
+.fNav ul li {
+	font-size: 40px;
+	padding: 0 3.75% 2%;
+	float: left;
+}
+
+.fNav ul li a {
+	text-decoration: none;
+	text-align: center;
+	color: #1ac8ed;
+	font-family: 'Chelsea Market', cursive;
+}
+
+.fNav ul li a:hover {
+	font-family: 'Rubik Vinyl', cursive;
+	color: #f8f8dd;
+}
+
+footer {
+	text-align: center;
+	padding: 5%;
+	background-color: #f8f8dd;
+	color: #1c2321;
+	border-top: 0.5em solid #1ac8ed;
+}
+
+
+
+
+
+
+
+
+
+
